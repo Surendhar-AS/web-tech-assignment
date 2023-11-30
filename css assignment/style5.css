@@ -1,0 +1,26 @@
+body{ 
+background-color: #3d3976;
+}
+.img1 {
+width:20%;
+height:45%;
+float:left;
+margin:0% 20px; 
+}
+.flex-parent {
+  display: flex;
+}
+.form-box{
+width:380px;
+height:480px;
+margin:6% auto;
+background:#fff;
+padding:5px;
+}
+.form-box1{
+width:380px;
+height:480px;
+margin:6% auto;
+background:#fff;
+padding:5px;
+}

@@ -1,0 +1,30 @@
+<html>
+    <head>
+	<title>da3_2</title>
+
+        <script>
+            function calculate()
+            {
+               
+                r = document.getElementById("r").value;
+                t = document.getElementById("t").value;
+                b=1+r
+                a=math.pow(b,t)
+                result = document.getElementById("result");
+                result.innerHTML = "The interest is " + ((1-(1/a))/r);
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Simple Interest Calculation</h1>
+
+        
+        Cost of capital: <input id="r"><br/>
+        No. of Years: <input id="t"><br/>
+
+        <button onclick="calculate()">Calculate</button>
+
+        <p id="result"></p>
+    </body>
+</html>

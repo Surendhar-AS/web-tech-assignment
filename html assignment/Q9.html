@@ -1,0 +1,76 @@
+<form>
+<table>
+<tr>
+<td style="text-align:right">First Name</td>
+<td><input type=”text” name=”Firstname” required onclick=”fname() pattern=”[A-Za-z]{1,10}” title=”plz write only letter.”/></td>
+</tr>
+<tr>
+<td style="text-align:right">LastName</td>
+<td><input type=”text” name=”Lastname”  required pattern=”[A-Za-z]{1,10}” title=”plz write only letter.” /></td>
+</tr>
+<tr>
+<td style="text-align:right">user name</td>
+<td><input type=”text” name=”FullName” required  /></td>
+</tr>
+<tr>
+<td style="text-align:right">Email</td>
+<td><input type=”text” name=”Email”  onclick=”xname()” required  /></td>
+</tr>
+<tr>
+<td style="text-align:right">Password</td>
+<td><input type=”password”  name=”Password” onclick=”email()” required  /></td>
+</tr>
+<tr>
+<td>Re-password</td>
+<td><input type=”password” name=”Re-password”  required  /></td>
+</tr>
+<tr>
+<td>D.O.B</td>
+<td><input type=”date”  name=”D.O.B”  required     /></td>
+</tr>
+<tr>
+<td style="text-align:right">Mobile</td>
+<td><input type=”text” name=”Mobile” required pattern=”[0-9]{11}” title=”plz write only digit.” /></td>
+</tr>
+
+<tr>
+<td style="text-align:right">Country</td>
+<td>
+<select name=”Country”>
+<option value=”-1″ selected>[choose yours]</option>
+<option value=”1″>USA</option>
+<option value=”2″>UK</option>
+<option value=”3″>INDIA</option>
+<option value=”4″>pakistan</option>
+</select>
+</td>
+</tr>
+<tr>
+<td style="text-align:right">Zip Code</td>
+<td><input type=”text” name=”Zip”   required pattern=”[0-9]{5}” title=”plz write only 5 digit.”/></td>
+</tr>
+<tr>
+
+<td>Gender</td>
+<td>
+<input type="radio"  name="r1"  id="r1">
+  <label for="r1">male</label><br>
+<input type="radio"  name="r1" id="r2">
+  <label for="r2">female</label><br>
+</td>
+
+</tr>
+<tr>
+<td align=”right”></td>
+<td><input type="checkbox"  name="check" >
+  <label for="check"> I agree with Terms & Conditions</label><br>
+</td>
+
+</tr>
+
+<tr>
+<td align=”right”></td>
+<td> <input type="submit" value="Submit"></td>
+</tr>
+</table>
+</form>
